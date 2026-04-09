@@ -25,7 +25,7 @@ message CreateTaskResponse{
 message ListTasksRequest{}
 
 message ListTaskResponse{
-  repeated Task task = 1;
+  repeated Task tasks = 1;
 }
 
 service TaskService{
